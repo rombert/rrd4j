@@ -302,6 +302,7 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>${maven.plugin.surefire.version}</version>
                 <configuration>
+                    <skip>true</skip>
                     <systemProperties>
                         <property>
                             <name>java.awt.headless</name>
@@ -323,6 +324,7 @@
                 <artifactId>maven-javadoc-plugin</artifactId>
                 <version>${maven.plugin.javadoc.version}</version>
                 <configuration>
+                    <skip>true</skip>
                     <aggregate>true</aggregate>
                     <links>
                         <link>http://docs.oracle.com/javase/7/docs/api/</link>
