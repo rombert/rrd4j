@@ -29,6 +29,7 @@
         <jdk.home>${java.home}</jdk.home>
         <!-- current year. -->
         <year>2018</year>
+        <sonar.skip>true</sonar.skip>
     </properties>
     <licenses>
         <license>
